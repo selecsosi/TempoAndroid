@@ -23,8 +23,8 @@ import com.tempodb.models.Filter;
 public class TempoAdapter {
 	private final static String TAG = "TempoAdapter";
 	
-	private final static String API_KEY = "34b138cb3817486b87e585838312f5f0";
-	private final static String API_SECRET = "b11f2ed6238e43f4b6aecab21c208628";
+	private final static String API_KEY = "key goes here";
+	private final static String API_SECRET = "secret goes here";
 
 	private static Map<Integer, String> supportedDataSeries = new HashMap<Integer, String>();
 	
