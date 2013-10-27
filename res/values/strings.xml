@@ -3,6 +3,6 @@
 
     <string name="app_name">TempoLogger</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="default_text">To begin collecting data, go to Menu->Start service.</string>
 
 </resources>

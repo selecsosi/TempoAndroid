@@ -5,18 +5,25 @@ import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	private final static String TAG = "MainActivity";
+	
+	private TextView view;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); 
         
-        Log.i(TAG, "created activity");
+		view = new TextView(this);
+		view.setTextSize(24);
+		view.setGravity(Gravity.CENTER);
+		view.setText(R.string.default_text);
+		setContentView(view);
     }
     
     
