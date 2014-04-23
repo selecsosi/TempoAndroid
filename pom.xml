@@ -10,17 +10,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.3</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.tempodb</groupId>
             <artifactId>tempodb-java</artifactId>
             <version>1.1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>support-v4</artifactId>
+            <version>r6</version>
+        </dependency>
     </dependencies>
+
+
 
     <repositories>
         <repository>
